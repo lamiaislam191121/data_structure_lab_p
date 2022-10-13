@@ -1,0 +1,72 @@
+#include<iostream>
+
+using namespace std;
+
+class Student{
+public:
+    int arr[6];
+    string name;
+    int id;
+    float CGPA;
+};
+
+    int a=6;
+
+    Student details[a];
+
+    for (int i=0; i<a; i++){
+        cout << "Enter student's name:" ;
+        cin >> name;
+        cout << "Enter student's id:";
+        cin >> id;
+        cout << "Enter student's CGPA:" ;
+        cin >> CGPA;
+    }
+
+    for (int i=0; i<6; i++){
+        if(details[i].CGPA){
+            cout << details[i].id << endl;
+        }
+    }
+
+
+    int main(){
+        Student s1;
+
+        float s1.CGPA[6];
+        int i;
+        cout << "Enter CGPA:" <<endl;
+
+         for (int i=0; i<10; i++){
+        cin >> arr[i];}
+
+    for(int i=0; i<10;i++){
+        cout<<arr[i]<<" ";}
+
+    cout<<endl<<"---------"<<endl;
+
+    for(int i=0; i<10; i++){
+        min_index = i;
+
+        for(int j=i+1; j<10; j++){
+            if(arr[min_index] > arr[j]){
+                min_index = j;}
+        }
+
+        temp = arr[min_index];
+        arr[min_index] = arr[i];
+        arr[i] = temp;
+    }
+
+    for(int i=0; i<10;i++){
+        cout<<arr[i]<<" ";}
+
+    cout<<endl;
+
+    return 0;
+}
+
+
+
+
+
